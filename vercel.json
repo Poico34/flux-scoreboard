@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/control/:id",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/editor/:id",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/overlay/:id",
+      "destination": "/index.html"
+    }
+  ]
+}
